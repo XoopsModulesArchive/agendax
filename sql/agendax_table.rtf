@@ -1,0 +1,59 @@
+CREATE TABLE agendax_events (
+id int(11) NOT NULL auto_increment, #unique integer id for event 
+group_id int(11) default NULL, #cal_group_id: the parent event id if this event 
+#is overriding an occurrence of a repeating event 
+ext_for_id int(11) default NULL, #used when an event goes past midnight into the 
+#next day, in which case an additional entry in 
+#this table will use this field to indicate the original event cal_id 
+title varchar(255) NOT NULL default '', #event title
+description text NOT NULL, #event description
+contact text NOT NULL, #event contact info
+url varchar(100) NOT NULL default '', #event related url
+email varchar(120) NOT NULL default '', #submiter's email or event contact email
+picture varchar(100) NOT NULL default '', #associated picture url
+cat tinyint(2) NOT NULL default '0', #event category id
+date int(11) NOT NULL default '0', #date of event (in YYYYMMDD format) 
+time int(11) default NULL, #event time (in HHMMSS format) 
+modif_date int(11) default NULL, #date the event was last modified (in YYYYMMDD format) 
+modif_time int(11) default NULL, #time the event was last modified (in HHMMSS format) 
+duration int(11) NOT NULL default '0', #duration of event in minutes ( > v.2.1)
+priority tinyint(4) default '2', #event priority: 1=Low, 2=Med, 3=High (> 2.1) 
+day tinyint(2) NOT NULL default '0', #depricated
+month smallint(2) NOT NULL default '0', #depricated
+year smallint(4) NOT NULL default '0', #depricated
+approved tinyint(1) NOT NULL default '0', # '0'=non approved, '1' = approved
+submit_by mediumint(8) unsigned NOT NULL default '0', #submiter's Xoops user id
+type char(1) NOT NULL default 'E', #'E' = General Event, 'R' = Repeating event, 'B'=ressource booking event
+access char(1) default 'P', #'P' = Public, 'R' = Confidential (others can see time allocated but not what it is) 
+PRIMARY KEY (id)
+) ENGINE = ISAM;
+CREATE TABLE agendax_event_repeats (
+event_id int(11) NOT NULL default '0', #event id 
+event_rpt_type varchar(20) default NULL, #type of repeating:
+#daily - repeats daily 
+#monthlyByDate - repeats on same wday of the month 
+#monthlyByDayR - repeats on same weekday of the month (counting weeks from the end of the month ex. in last Monday) 
+#monthlyByDay - repeats on specified weekday (2nd Monday, for example) 
+#weekly - repeats every week 
+#yearly - repeats on same date every year 
+event_end int(11) default NULL, #end date for repeating event (in YYYYMMDD format) 
+frequency int(11) default '1', #frequency of repeat: 1 = every, 2 = every other, 3 = every 3rd, etc. 
+event_repeaton_days varchar(7) default NULL, #which days of the week does it repeat on (only applies when event_rpt_type = 'weekly' 
+#ex, every sunday and monday : yynnnnn 
+PRIMARY KEY (event_id)
+) ENGINE = ISAM;
+CREATE TABLE agendax_event_repeats_not ( 
+event_id int(11) NOT NULL default '0', #event id of repeating event 
+event_date int(11) NOT NULL default '0' #date event should not repeat (in YYYYMMDD format) 
+) ENGINE = ISAM;
+CREATE TABLE agendax_mcalurl (
+mc_id int(7) NOT NULL default '0',
+mc_isscript int(1) unsigned NOT NULL default '0',
+mc_url varchar(150) NOT NULL default '',
+UNIQUE KEY mc_id (mc_id)
+) ENGINE = ISAM;
+CREATE TABLE agendax_cat (
+cat_id int(11) NOT NULL auto_increment,
+cat_name varchar(150) NOT NULL default '',
+PRIMARY KEY (cat_id)
+) ENGINE = ISAM;

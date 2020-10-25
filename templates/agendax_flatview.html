@@ -1,0 +1,49 @@
+<!-- begin Agenda-X contents-->
+<div align="center">
+<!-- navbar -->
+    <{$agendax.navbar}>
+    <{$agendax.date}>
+</div>
+<div style="margin-left: 20px; margin-right:20px; margin-top: 20px">
+    <{$agendax.previous}>&nbsp;&nbsp;<{$agendax.current}>&nbsp;&nbsp;<{$agendax.next}>
+<br><br>
+
+<{section name=k loop=$agendax.title}>
+<table width='100%' cellspacing='0' class='outer'>
+  <tr> 
+    <td width="65%" height="18" align='left' class="head"> 
+      <{$agendax.edate[k]}>
+    </td>
+    <td width="35%" height="18" align='right' class="head"> 
+      <{$agendax.adminmenu[k]}>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" align='left' valign="bottom" class='even'> 
+      <{$agendax.title[k]}>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan='2' class='odd' align='left'> 
+      <{$desc_caption}>
+      <br><br> <div style="text-align: justify"> 
+        <{$agendax.description[k]}>
+      </div>
+      <br></td>
+  </tr>
+  <tr> 
+    <td colspan='2' class='even' align='left'> 
+      <{$contact_caption}>
+      &nbsp; 
+      <{$agendax.contact[k]}>
+      &nbsp;&nbsp;<img src='../agendax/images/home.gif' border='0' align='absmiddle' alt='<{$agendax.url[k]}>'>&nbsp; 
+      <{$agendax.url[k]}>
+    </td>
+  </tr>
+</table>
+<br><br>
+<{/section}>   
+</div>
+
+<div align="center"><small><{$agendax.credits}></small></div>
+<!-- end of Agenda-X contents -->

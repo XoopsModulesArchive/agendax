@@ -1,0 +1,14 @@
+Installationsanweisung:
+
+1. Das Modul ist wie jedes andere Modul ueber die Moduladministration zu installieren.
+2. Gruppenrechte fuer das Modul vergeben und nach Bedarf Bloecke aktivieren
+3. Es koennen in der Administration des Modul Kategorien angelegt werden, Termin freigegeben etc. und unter Minikalbild kann ein Bild angegeben werden das in dem Minikalblock angezeigt werden soll (Darf nur nicht zu breit sein)
+4. Das Finetuning was Farben und Abmessungen angeht wird in der Datei config.inc.php gemacht. dort kann auch eingestellt werden wie die Agenda gestartet werden soll (week, day,flat oder month sind die Optionen die zur Verfuegung stehen)
+5. Im Ordner images liegen ausser den Systembilder noch CSS-Dateien mit deren und der Hilfe der Templates das Aussehen der Agenda noch weiter bestimmt werden kann
+6. Tipp: Wenn aus Versehen vergessen worden ist ein Datum fuer den Termin anzugeben, dann mal unter abgelaufene Termine schauen
+
+Man moege mir bitte nachsehen, dass ich diese Datei nicht eingedeutscht habe, aber mich hat dieses Modul mehr als ein graues Haar gekostet und wer unsicher ist was die englischen Texte bedeuten => www.leo.org
+
+Viel Vergnuegen mit diesem Modul
+
+frankblack (der hofft dass er die Bugs beseitigt und nicht eingebaut hat)

@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: agendax.po,v 1.1 2006/03/16 02:58:15 mikhail Exp $\n"
+"POT-Creation-Date: 2003-07-17 18:00+0100\n"
+"PO-Revision-Date: 2003-07-17 21:00CST\n"
+"Last-Translator: wjue http://www.wjue.org\n"
+"Language-Team: Chinese-Traditional\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=BIG5\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: A la Main\n"
+
+msgid "Add event"
+msgstr "Añadir evento"
+
+msgid "Categories"
+msgstr "Categorías"
+
+#
+msgid "Day view"
+msgstr "Vista diaria"
+
+#
+msgid "Week view"
+msgstr "Vista semanal"
+
+#
+msgid "Month view"
+msgstr "Vista mensual"
+
+#
+msgid "Flat view"
+msgstr "Vista plana"
+
+#
+msgid "Support"
+msgstr "Soporte"
+
+#
+msgid "Search"
+msgstr "Buscar"
+
+#
+msgid "search"
+msgstr "buscar"
+
+#
+msgid "Search results"
+msgstr "Resultados de la búsqueda"
+
+#
+msgid "result(s)"
+msgstr "resultado(s)"
+
+#
+msgid "no result found"
+msgstr "No se han encontrado resultados"
+
+#
+msgid "No event found"
+msgstr "No se han encontrado eventos"
+
+#
+msgid "Today is"
+msgstr "Hoy es"
+
+#
+msgid "Contact"
+msgstr "Contacto"
+
+#
+msgid "Email"
+msgstr "E-Mail"
+
+#
+msgid "URL"
+msgstr "URL"
+
+#
+msgid "Category List"
+msgstr "Lista de categorías"
+
+#
+msgid "Events of"
+msgstr "Eventos de"
+
+#
+msgid "Previous day"
+msgstr "Día anterior"
+
+#
+msgid "Next day"
+msgstr "Día siguiente"
+
+#
+msgid "Previous week"
+msgstr "Semana anterior"
+
+#
+msgid "Next week"
+msgstr "Semana siguiente"
+
+#
+msgid "Previous month"
+msgstr "Mes anterior"
+
+#
+msgid "Next month"
+msgstr "Mes siguiente"
+
+#
+msgid "Category"
+msgstr "Categoría"
+
+#
+msgid "Read more"
+msgstr "Leer más"
+
+#
+msgid "back to previous page"
+msgstr "regresar a la página anterior"
+
+#
+msgid "Today"
+msgstr "Hoy"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Monday"
+msgstr "Lunes"
+
+#
+msgid "Tuesday"
+msgstr "Martes"
+
+#
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#
+msgid "Thursday"
+msgstr "Jueves"
+
+#
+msgid "Friday"
+msgstr "Viernes"
+
+#
+msgid "Saturday"
+msgstr "Sábado"
+
+#
+msgid "January"
+msgstr "Enero"
+
+#
+msgid "February"
+msgstr "Febrero"
+
+msgid "March"
+msgstr "Marzo"
+
+#
+msgid "April"
+msgstr "Abril"
+
+#
+msgid "May"
+msgstr "Mayo"
+
+#
+msgid "June"
+msgstr "Junio"
+
+#
+msgid "July"
+msgstr "Julio"
+
+#
+msgid "August"
+msgstr "Agosto"
+
+#
+msgid "September"
+msgstr "Septiembre"
+
+msgid "October"
+msgstr "Octubre"
+
+#
+msgid "November"
+msgstr "Noviembre"
+
+#
+msgid "December"
+msgstr "Diciembre"
+
+#
+msgid "Events from"
+msgstr "Eventos desde"
+
+#
+msgid "till"
+msgstr "hasta"
+
+#
+msgid "max"   
+msgstr "max." 
+
+#
+msgid "valid extensions"
+msgstr "Extensiones válidas"
+
+#
+msgid "Event title"
+msgstr "Título del evento"
+
+#
+msgid "Description"
+msgstr "Descripción"
+
+#
+msgid "Picture"
+msgstr "Imagen"
+
+#
+msgid "Date"
+msgstr "Fecha"
+
+#
+msgid "* denotes required"
+msgstr "*obligatorio"
+
+#
+msgid "This page has been disabled by config"
+msgstr "Disculpe, esta página está desactivada por mantenimiento"
+
+#
+msgid "More info"
+msgstr "Más información"
+
+#
+msgid "on"
+msgstr "en"
+
+#
+msgid "Events in Category"
+msgstr "Eventos en la categoría"
+
+#
+msgid "Thank you for your submission !"
+msgstr "Gracias por el envío"
+
+#
+msgid "Thank you for your submission, we will examine it and list it shortly"
+msgstr "Gracias por el envío, en cuanto sea aprobado, será publicado"
+
+#
+msgid "Day"
+msgstr "Día"
+
+#
+msgid "Month"
+msgstr "Mes"
+
+#
+msgid "Year"
+msgstr "Año"
+
+#
+msgid "Title"
+msgstr "Título"
+
+#
+msgid "Please specify a date"
+msgstr "Por favor, especifíque una fecha"
+
+#
+msgid "Please provide a title"
+msgstr "Por favor, especifíque un título"
+
+#
+msgid "Please give a description"
+msgstr "Por favor, especifíque una descripción"
+
+#
+msgid "Please provide a valid email address"
+msgstr "Por favor, proporcione un e-mail válido"
+
+#
+msgid "Please specify a month"
+msgstr "Por favor, especifíque un mes"
+
+#
+msgid "Please specify a year"
+msgstr "Por favor, especfíque un año"
+
+#
+msgid "Please provide a contact person"
+msgstr "Por favor, proporcione una persona de contacto"
+
+#
+msgid "Show events"
+msgstr ""
+
+#
+msgid "Filter by category"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+#
+msgid "Tue"
+msgstr ""
+
+#
+msgid "Wed"
+msgstr ""
+
+#
+msgid "Thu"
+msgstr ""
+
+#
+msgid "Fri"
+msgstr ""
+
+#
+msgid "Sat"
+msgstr ""
+
+msgid "Recurrence"
+msgstr ""
+
+msgid "Pattern"
+msgstr ""
+
+msgid "Recur Until"
+msgstr ""
+
+msgid "No End Date"
+msgstr ""
+
+msgid "Please Use Exclusively The Date Selector"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Use The Date Selector"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Monthly : Recurs every"
+msgstr ""
+
+msgid "Yearly"
+msgstr ""
+
+msgid "Recurs every"
+msgstr ""
+
+msgid "day(s)"
+msgstr ""
+
+msgid "week(s)"
+msgstr ""
+
+msgid "year(s)"
+msgstr ""
+
+msgid "month(s)"
+msgstr ""
+
+msgid "on the same weekday"
+msgstr ""
+
+msgid "on the same weekday from the end"
+msgstr ""
+
+msgid "on the same date"
+msgstr ""

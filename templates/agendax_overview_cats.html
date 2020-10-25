@@ -1,0 +1,22 @@
+<!-- begin Agenda-X contents-->
+<div align="center">
+<!-- navbar -->
+    <{$agendax.navbar}>
+    <{$agendax.date}>
+</div>
+<div style="margin-left:150px; margin-top:20px">
+<{if $agendax.empty eq "true"}>
+   <{$agendax.noresult}><br><br>
+<{else}>
+   <div class=mainCategory> <{$agendax.catList}> <br><br></div>
+     <div>
+     <{section name=k loop=$agendax.categories}>
+        <li><{$agendax.categories[k]}>(<{$agendax.eventNb[k]}>) <{$agendax.edit[k]}></li>
+     <{/section}>
+     <{$agendax.addcat}>
+   </div>           
+<{/if}>
+<p><{$agendax.searchform}></p>
+</div>
+<div align="center"><small><{$agendax.credits}></small></div>
+<!-- end of Agenda-X contents -->

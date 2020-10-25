@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $Id: agendax.po,v 1.1 2006/03/16 03:09:51 mikhail Exp $\n"
+"POT-Creation-Date: 2003-07-01 18:00+0100\n"
+"PO-Revision-Date: 2003-07-04 21:00CST\n"
+"Last-Translator: wjue http://www.wjue.org\n"
+"Language-Team: Japanese-Traditional\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=euc-jp\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: A la Main\n"
+
+msgid "Add event"
+msgstr "イベント追加"
+
+msgid "Categories"
+msgstr "カテゴリー"
+
+#
+msgid "Day view"
+msgstr "一日表示"
+
+#
+msgid "Week view"
+msgstr "週間表示"
+
+#
+msgid "Month view"
+msgstr "月表示"
+
+#
+msgid "Flat view"
+msgstr "フラット表示"
+
+#
+msgid "Support"
+msgstr "サポート"
+
+#
+msgid "Search"
+msgstr "検索"
+
+#
+msgid "search"
+msgstr "検索"
+
+#
+msgid "Search results"
+msgstr "検索結果"
+
+#
+msgid "result(s)"
+msgstr "結果"
+
+#
+msgid "no result found"
+msgstr "結果なし"
+
+#
+msgid "No event found"
+msgstr "イベントはありません"
+
+#
+msgid "Today is"
+msgstr "今日は"
+
+#
+msgid "Contact"
+msgstr "連絡"
+
+#
+msgid "Email"
+msgstr "email"
+
+#
+msgid "URL"
+msgstr "URL"
+
+#
+msgid "Category List"
+msgstr "カテゴリーリスト"
+
+#
+msgid "Events of"
+msgstr "イベント"
+
+#
+msgid "Previous day"
+msgstr "前日へ"
+
+#
+msgid "Next day"
+msgstr "翌日へ"
+
+#
+msgid "Previous week"
+msgstr "前の週へ"
+
+#
+msgid "Next week"
+msgstr "次の週へ"
+
+#
+msgid "Previous month"
+msgstr "前の月へ"
+
+#
+msgid "Next month"
+msgstr "次の月へ"
+
+#
+msgid "Category"
+msgstr "カテゴリー"
+
+#
+msgid "Read more"
+msgstr "もっと読む"
+
+#
+msgid "back to previous page"
+msgstr "前のページに戻る"
+
+#
+msgid "Today"
+msgstr "今日"
+
+msgid "Sunday"
+msgstr "日曜"
+
+msgid "Monday"
+msgstr "月曜"
+
+#
+msgid "Tuesday"
+msgstr "火曜"
+
+#
+msgid "Wednesday"
+msgstr "水曜"
+
+#
+msgid "Thursday"
+msgstr "木曜"
+
+#
+msgid "Friday"
+msgstr "金曜"
+
+#
+msgid "Saturday"
+msgstr "土曜"
+
+#
+msgid "January"
+msgstr "1月"
+
+#
+msgid "February"
+msgstr "2月"
+
+msgid "March"
+msgstr "3月"
+
+#
+msgid "April"
+msgstr "4月"
+
+#
+msgid "May"
+msgstr "5月"
+
+#
+msgid "June"
+msgstr "6月"
+
+#
+msgid "July"
+msgstr "7月"
+
+#
+msgid "August"
+msgstr "8月"
+
+#
+msgid "September"
+msgstr "9月"
+
+msgid "October"
+msgstr "10月"
+
+#
+msgid "November"
+msgstr "11月"
+
+#
+msgid "December"
+msgstr "12月"
+
+#
+msgid "Events from"
+msgstr "イベント"
+
+#
+msgid "till"
+msgstr "まで"
+
+#
+msgid "max"   
+msgstr "最大" 
+
+#
+msgid "valid extensions"
+msgstr "受付ける拡張子"
+
+#
+msgid "Event title"
+msgstr "イベントタイトル"
+
+#
+msgid "Description"
+msgstr "説明"
+
+#
+msgid "Picture"
+msgstr "画像"
+
+#
+msgid "Date"
+msgstr "日付"
+
+#
+msgid "* denotes required"
+msgstr "*は必須 "
+
+#
+msgid "This page has been disabled by config"
+msgstr "This page has been disabled by config"
+
+#
+msgid "More info"
+msgstr "More info"
+
+#
+msgid "on"
+msgstr "on"
+
+#
+msgid "Events in Category"
+msgstr "Events in Category"
+
+#
+msgid "Thank you for your submission !"
+msgstr "登録ありがとう"
+
+#
+msgid "Thank you for your submission, we will examine it and list it shortly"
+msgstr "Thank you for your submission, we will examine it and list it shortly"
+
+#
+msgid "Day"
+msgstr "日"
+
+#
+msgid "Month"
+msgstr "月"
+
+#
+msgid "Year"
+msgstr "年"
+
+#
+msgid "Title"
+msgstr "タイトル"
+
+#
+msgid "Please specify a date"
+msgstr "日付を入力してください"
+
+#
+msgid "Please provide a title"
+msgstr "タイトルを入力してください"
+
+#
+msgid "Please give a description"
+msgstr "説明を入力してください"
+
+#
+msgid "Please provide a valid email address"
+msgstr "正しいメールアドレスを入力してください"
+
+#
+msgid "Please specify a month"
+msgstr "月を入力してください"
+
+#
+msgid "Please specify a year"
+msgstr "年を入力してください"
+
+#
+msgid "Please provide a contact person"
+msgstr "Please provide a contact person"
+
+#
+msgid "Show events"
+msgstr "イベント表示"
+
+#
+msgid "Filter by category"
+msgstr "カテゴリーによるフィルター"

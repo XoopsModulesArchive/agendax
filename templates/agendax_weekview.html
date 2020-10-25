@@ -1,0 +1,21 @@
+<!-- begin Agenda-X contents-->
+<div align="center">
+<!-- navbar -->
+    <{$agendax.navbar}>
+    <{$agendax.date}>
+</div>
+<div style="margin-left:40px; margin-top:20px">
+<{$agendax.eventsFrom}>&nbsp;:&nbsp;<{$agendax.dateFrom}>&nbsp;<{$agendax.till}>&nbsp;<{$agendax.dateTo}>
+<br><br>
+
+<{$agendax.prevWeek}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$agendax.nextWeek}>
+<br><br>
+
+<{section name=k loop=$agendax.title}>
+    <{$agendax.title[k]}> (<{$agendax.edate[k]}>) &nbsp;|&nbsp;<{$agendax.category[k]}>&nbsp;:&nbsp;<{$agendax.categoryName[k]}><br>
+    <{$agendax.description[k]}>
+    <{$agendax.readmore[k]}><br><br>
+<{/section}>
+</div>
+<div align="center"><small><{$agendax.credits}></small></div>
+<!-- end of Agenda-X contents -->

@@ -1,0 +1,22 @@
+<!-- begin Agenda-X contents-->
+<div align="center">
+<!-- navbar -->
+    <{$agendax.navbar}>
+    <{$agendax.date}>
+</div>
+<div style="margin-left:150px; margin-top:20px">
+<{if $agendax.eventFound eq "no"}>
+    <{$agendax.noevent}>
+<{else}>
+    <{$agendax.category}><br /><br />
+    <{section name=k loop=$agendax.events}>
+        <li> <{$agendax.events[k].title}> <{$agendax.on}> <{$agendax.events[k].date}></li>    
+    <{/section}>
+<{/if}>        
+<br />
+<{$agendax.backLink}><br />
+<br />
+<{$agendax.searchform}><br />
+</div>
+<div align="center"><small><{$agendax.credits}></small></div>
+<!-- end of Agenda-X contents -->

@@ -1,0 +1,25 @@
+<!-- begin Agenda-X contents-->
+<div align="center">
+<!-- navbar -->
+    <{$agendax.navbar}>
+    <{$agendax.date}>
+</div>
+<div style="margin-left:60px; margin-top:20px">
+<{$agendax.searchTitle}>
+<{if $agendax.resultsFound eq "yes"}>
+    <{$agendax.resultsNb}>
+    <{$agendax.eventsOf}>&nbsp;:&nbsp;<{$agendax.year}>&nbsp;<{$agendax.month}>&nbsp;<{$agendax.day}>&nbsp;<{$agendax.week}>
+    <br /><br />
+    <{$agendax.prevNext}><br /><br />
+    <{section name=k loop=$agendax.results}>
+        <{$agendax.results[k].title}> ( <{$agendax.results[k].date}> ) | <{$agendax.results[k].category}><br />
+        <{$agendax.results[k].description}><br />
+        <{$agendax.results[k].contact}> &nbsp;&nbsp;&nbsp;&nbsp;<{$agendax.results[k].readmore}><br /><br />
+    <{/section}>
+<{else}>
+    <{$agendax.noresults}><br /><br />
+<{/if}>    
+<{$agendax.searchform}><br />
+</div>
+<div align="center"><small><{$agendax.credits}></small></div>
+<!-- end of Agenda-X contents -->
